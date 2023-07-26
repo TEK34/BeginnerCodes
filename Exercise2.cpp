@@ -5,10 +5,10 @@ using namespace std;
 // your company paid and the revenue you are left with after tax
 int main()
 {
-int Sales=95000;
-int StateTax=Sales * 4/100;
-int CountyTax=Sales* 2/100;
-int SalesAfterTax=Sales-StateTax-CountyTax;
+double Sales=95000;
+double StateTax=Sales * 4/100;
+double CountyTax=Sales* 2/100;
+double SalesAfterTax=Sales-StateTax-CountyTax;
 cout <<"Sales before taxes=" << Sales         <<endl
      <<"State  Tax = "       << StateTax      <<endl
      <<"County Tax = "       << CountyTax     <<endl
